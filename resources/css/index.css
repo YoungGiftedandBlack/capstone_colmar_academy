@@ -5,6 +5,10 @@
     font-family: "roboto"
   }
 
+  html a {
+    text-decoration: none;
+  }
+
 /* html END */
 
 /* font START */
@@ -44,9 +48,26 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* body END */
 
+/* header START */
+
+  header {
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+  }
+
+/* header END */
+
 /* colmar_logo START */
 
-
+  .colmar_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 24px;
+  }
 
 /* colmar_logo END */
 
@@ -58,21 +79,41 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* logo_title START */
 
-
+  .logo_title {
+    font-size: 20px;
+  }
 
 /* logo_title END */
+
+/* nav START */
+
+  nav {
+    padding-right: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav li {
+    padding: 0px 8px;
+    font-size: 16px;
+  }
+
+  nav a {
+    color: rgb(0, 0, 0);
+  }
+
+/* nav END */
 
 /* desktop START */
 
 
 
 /* desktop END */
-
-/* nav START */
-
-
-
-/* nav END */
 
 /* mobile START */
 
@@ -88,13 +129,17 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* part_1 START */
 
-
+  .part_1 {
+    background-color: rgb(216, 216, 216);
+  }
 
 /* part_1 END */
 
 /* part_1_banner START */
 
-
+  .part_1_banner {
+    padding: 32px 24px;
+  }
 
 /* part_1_banner END */
 
@@ -104,21 +149,23 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* part_1_content END */
 
-/* 1_text START */
+/* _1_text START */
 
 
 
-/* 1_text END */
+/* _1_text END */
 
-/* 1_start_here START */
+/* _1_start_here START */
 
 
 
-/* 1_start_here END */
+/* _1_start_here END */
 
 /* part_2 START */
 
-
+  .part_2 {
+    background-color: rgb(255, 255, 255);
+  }
 
 /* part_2 END */
 
@@ -128,83 +175,85 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* part_2_content END */
 
-/* 2_i_banner START */
+/* _2_i_banner START */
 
 
 
-/* 2_i_banner END */
+/* _2_i_banner END */
 
-/* 2_i_title START */
-
-
-
-/* 2_i_title END */
-
-/* 2_i_text_pt1 START */
+/* _2_i_title START */
 
 
 
-/* 2_i_text_pt1 END */
+/* _2_i_title END */
 
-/* 2_i_text_pt2 START */
-
-
-
-/* 2_i_text_pt2 END */
-
-/* 2_orientation START */
+/* _2_i_text_pt1 START */
 
 
 
-/* 2_orientation END */
+/* _2_i_text_pt1 END */
 
-/* 2_ii_banner START */
-
-
-
-/* 2_ii_banner END */
-
-/* 2_ii_text START */
+/* _2_i_text_pt2 START */
 
 
 
-/* 2_ii_text END */
+/* _2_i_text_pt2 END */
 
-/* 2_campus START */
-
-
-
-/* 2_campus END */
-
-/* 2_iii_banner START */
+/* _2_orientation START */
 
 
 
-/* 2_iii_banner END */
+/* _2_orientation END */
 
-/* 2_iii_text START */
-
-
-
-/* 2_iii_text END */
-
-/* 2_guest_lecture START */
+/* _2_ii_banner START */
 
 
 
-/* 2_guest_lecture END */
+/* _2_ii_banner END */
 
-/* 2_iv_banner START */
-
-
-
-/* 2_iv_banner END */
-
-/* 2_iv_text START */
+/* _2_ii_text START */
 
 
 
-/* 2_iv_text END */
+/* _2_ii_text END */
+
+/* _2_campus START */
+
+
+
+/* _2_campus END */
+
+/* _2_iii_banner START */
+
+
+
+/* _2_iii_banner END */
+
+/* _2_iii_text START */
+
+
+
+/* _2_iii_text END */
+
+/* _2_guest_lecture START */
+
+  ._2_guest_lecture {
+    background-color: rgb(216, 216, 216);
+  }
+
+/* _2_guest_lecture END */
+
+/* _2_iv_banner START */
+
+
+
+/* _2_iv_banner END */
+
+/* _2_iv_text START */
+
+
+
+/* _2_iv_text END */
 
 /* part_3 START */
 
@@ -218,11 +267,11 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* part_3_title END */
 
-/* 3_desktop START */
+/* _3_desktop START */
 
 
 
-/* 3_desktop END */
+/* _3_desktop END */
 
 /* box_1 START */
 
@@ -236,11 +285,11 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* image_container END */
 
-/* 1_content START */
+/* _1_content START */
 
 
 
-/* 1_content END */
+/* _1_content END */
 
 /* courses START */
 
@@ -254,11 +303,11 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* box_2 END */
 
-/* 2_content START */
+/* _2_content START */
 
 
 
-/* 2_content END */
+/* _2_content END */
 
 /* box_3 START */
 
@@ -266,11 +315,11 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* box_3 END */
 
-/* 3_content START */
+/* _3_content START */
 
 
 
-/* 3_content END */
+/* _3_content END */
 
 /* box_4 START */
 
@@ -278,11 +327,11 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* box_4 END */
 
-/* 4_content START */
+/* _4_content START */
 
 
 
-/* 4_content END */
+/* _4_content END */
 
 /* box_5 START */
 
@@ -290,11 +339,11 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* box_5 END */
 
-/* 5_content START */
+/* _5_content START */
 
 
 
-/* 5_content END */
+/* _5_content END */
 
 /* box_6 START */
 
@@ -302,53 +351,53 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* box_6 END */
 
-/* 6_content START */
+/* _6_content START */
 
 
 
-/* 6_content END */
+/* _6_content END */
 
-/* 3_mobile START */
-
-
-
-/* 3_mobile END */
-
-/* 3_1_box START */
+/* _3_mobile START */
 
 
 
-/* 3_1_box END */
+/* _3_mobile END */
 
-/* 3_2_box START */
-
-
-
-/* 3_2_box END */
-
-/* 3_3_box START */
+/* _3_1_box START */
 
 
 
-/* 3_3_box END */
+/* _3_1_box END */
 
-/* 3_4_box START */
-
-
-
-/* 3_4_box END */
-
-/* 3_5_box START */
+/* _3_2_box START */
 
 
 
-/* 3_5_box END */
+/* _3_2_box END */
 
-/* 3_6_box START */
+/* _3_3_box START */
 
 
 
-/* 3_6_box END */
+/* _3_3_box END */
+
+/* _3_4_box START */
+
+
+
+/* _3_4_box END */
+
+/* _3_5_box START */
+
+
+
+/* _3_5_box END */
+
+/* _3_6_box START */
+
+
+
+/* _3_6_box END */
 
 /* part_4 START */
 
@@ -368,11 +417,11 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* part_4_content END */
 
-/* 4_i START */
+/* _4_i START */
 
 
 
-/* 4_i END */
+/* _4_i END */
 
 /* i_video START */
 
@@ -392,11 +441,11 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* i_text END */
 
-/* 4_ii START */
+/* _4_ii START */
 
 
 
-/* 4_ii END */
+/* _4_ii END */
 
 /* ii_image START */
 
@@ -410,11 +459,11 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 /* ii_text END */
 
-/* 4_iii START */
+/* _4_iii START */
 
 
 
-/* 4_iii END */
+/* _4_iii END */
 
 /* iii_image START */
 
