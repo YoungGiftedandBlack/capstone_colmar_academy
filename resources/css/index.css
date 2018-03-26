@@ -1,138 +1,447 @@
 /* html START */
+
+  html {
+    font-size: 16px;
+    font-family: "roboto"
+  }
+
 /* html END */
+
+/* font START */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* font END */
+
 /* body START */
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
 /* body END */
+
 /* colmar_logo START */
+
+
+
 /* colmar_logo END */
+
 /* logo START */
+
+
+
 /* logo END */
+
 /* logo_title START */
+
+
+
 /* logo_title END */
+
 /* desktop START */
-/* nav START */
-/* nav END */
+
+
+
 /* desktop END */
+
+/* nav START */
+
+
+
+/* nav END */
+
 /* mobile START */
+
+
+
 /* mobile END */
+
 /* main-content START */
+
+
+
 /* main-content END */
+
 /* part_1 START */
+
+
+
 /* part_1 END */
+
 /* part_1_banner START */
+
+
+
 /* part_1_banner END */
+
 /* part_1_content START */
+
+
+
 /* part_1_content END */
+
 /* 1_text START */
+
+
+
 /* 1_text END */
+
 /* 1_start_here START */
+
+
+
 /* 1_start_here END */
+
 /* part_2 START */
+
+
+
 /* part_2 END */
+
 /* part_2_content START */
+
+
+
 /* part_2_content END */
+
 /* 2_i_banner START */
+
+
+
 /* 2_i_banner END */
+
 /* 2_i_title START */
+
+
+
 /* 2_i_title END */
+
 /* 2_i_text_pt1 START */
+
+
+
 /* 2_i_text_pt1 END */
+
 /* 2_i_text_pt2 START */
+
+
+
 /* 2_i_text_pt2 END */
+
 /* 2_orientation START */
+
+
+
 /* 2_orientation END */
+
 /* 2_ii_banner START */
+
+
+
 /* 2_ii_banner END */
+
 /* 2_ii_text START */
+
+
+
 /* 2_ii_text END */
+
 /* 2_campus START */
+
+
+
 /* 2_campus END */
+
 /* 2_iii_banner START */
+
+
+
 /* 2_iii_banner END */
+
 /* 2_iii_text START */
+
+
+
 /* 2_iii_text END */
+
 /* 2_guest_lecture START */
+
+
+
 /* 2_guest_lecture END */
+
 /* 2_iv_banner START */
+
+
+
 /* 2_iv_banner END */
+
 /* 2_iv_text START */
+
+
+
 /* 2_iv_text END */
+
 /* part_3 START */
+
+
+
 /* part_3 END */
+
 /* part_3_title START */
+
+
+
 /* part_3_title END */
+
 /* 3_desktop START */
+
+
+
 /* 3_desktop END */
+
 /* box_1 START */
+
+
+
 /* box_1 END */
+
 /* image_container START */
+
+
+
 /* image_container END */
+
 /* 1_content START */
+
+
+
 /* 1_content END */
+
 /* courses START */
+
+
+
 /* courses END */
+
 /* box_2 START */
+
+
+
 /* box_2 END */
+
 /* 2_content START */
+
+
+
 /* 2_content END */
+
 /* box_3 START */
+
+
+
 /* box_3 END */
+
 /* 3_content START */
+
+
+
 /* 3_content END */
+
 /* box_4 START */
+
+
+
 /* box_4 END */
+
 /* 4_content START */
+
+
+
 /* 4_content END */
+
 /* box_5 START */
+
+
+
 /* box_5 END */
+
 /* 5_content START */
+
+
+
 /* 5_content END */
+
 /* box_6 START */
+
+
+
 /* box_6 END */
+
 /* 6_content START */
+
+
+
 /* 6_content END */
+
 /* 3_mobile START */
+
+
+
 /* 3_mobile END */
+
 /* 3_1_box START */
+
+
+
 /* 3_1_box END */
+
 /* 3_2_box START */
+
+
+
 /* 3_2_box END */
+
 /* 3_3_box START */
+
+
+
 /* 3_3_box END */
+
 /* 3_4_box START */
+
+
+
 /* 3_4_box END */
+
 /* 3_5_box START */
+
+
+
 /* 3_5_box END */
+
 /* 3_6_box START */
+
+
+
 /* 3_6_box END */
+
 /* part_4 START */
+
+
+
 /* part_4 END */
+
 /* part_4_title START */
+
+
+
 /* part_4_title END */
+
 /* part_4_content START */
+
+
+
 /* part_4_content END */
+
 /* 4_i START */
+
+
+
 /* 4_i END */
+
 /* i_video START */
+
+
+
 /* i_video END */
+
 /* i_title START */
+
+
+
 /* i_title END */
+
 /* i_text START */
+
+
+
 /* i_text END */
+
 /* 4_ii START */
+
+
+
 /* 4_ii END */
+
 /* ii_image START */
+
+
+
 /* ii_image END */
+
 /* ii_text START */
+
+
+
 /* ii_text END */
+
 /* 4_iii START */
+
+
+
 /* 4_iii END */
+
 /* iii_image START */
+
+
+
 /* iii_image END */
+
 /* iii_text START */
+
+
+
 /* iii_text END */
+
 /* footer START */
+
+
+
 /* footer END */
+
 /* copyright START */
+
+
+
 /* copyright END */
+
 /* terms_&_privacy START */
+
+
+
 /* terms_&_privacy END */
