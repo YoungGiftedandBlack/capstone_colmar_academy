@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./resources/css/index.css">
     <title>Colmar Academy</title>
-<!-- The mobile site will be set at the max-width of 470px -->
+<!-- The mobile site will be set at the max-width of 600px. Initally the width was 470px but the header ceased to function at 590px, so a compromise was made. Combination css can be found usually in one place dependent on the size of the group being combined (e.g. the titles of the 2-4th sections of the site) -->
   </head>
 <!-- head ends here -->
 <!-- body starts here -->
@@ -42,6 +42,7 @@
 <!-- mobile starts here -->
         <div class="mobile">
           <ul>
+            <li><a href="#"><img src="./resources/images/ic-logo.svg" alt="Colmar Academy"></a></li>
             <li><a href="#"><img src="./resources/images/ic-on-campus.svg" alt="On campus"></a></li>
             <li><a href="#"><img src="./resources/images/ic-online.svg" alt="Online"></a></li>
             <li><a href="#"><img src="./resources/images/ic-login.svg" alt="Sign in"></a></li>
@@ -58,6 +59,7 @@
       <div class="part_1">
 <!-- part_1_banner starts here -->
         <div class="part_1_banner">
+          <img src="./resources/images/banner.jpg" alt="Learn something new">
         </div>
 <!-- part_1_banner ends here -->
 <!-- part_1_content starts here -->
@@ -70,7 +72,7 @@
 <!-- _1_text ends here -->
 <!-- _1_start_here starts here -->
           <div class="_1_start_here">
-            <span><a href="#">Start here</a></span>
+            <a href="#">Start here</a>
           </div>
 <!-- _1_start here ends here -->
         </div>
@@ -79,13 +81,11 @@
 <!-- part_1 ends here -->
 <!-- part_2 starts here -->
       <div class="part_2">
-<!-- _2_title starts here -->
-        <div class="part_2_content">
-<!-- part_2_content starts here -->
-          <div class="_2_practice">
+<!-- _2_practice starts here -->
+        <div class="_2_practice">
 <!-- _2_i_banner starts here -->
             <div class="_2_i_banner">
-              <img src="./resources/images/.png" alt="">
+              <img src="./resources/images/information-main.jpg" alt="Practice">
             </div>
 <!-- _2_i_banner ends here -->
 <!-- _2_i_title starts here -->
@@ -103,12 +103,15 @@
               <span>Emanuel, Sr Strategist at Hiring.com</span>
             </div>
 <!-- _2_i_text_pt2 ends here -->
-          </div>
+        </div>
+<!-- _2_practice ends here -->
+<!-- _2_pt2 starts here -->
+        <div class= "_2_pt2">
 <!-- _2_orientation starts here -->
           <div class="_2_orientation">
 <!-- _2_ii_banner starts here -->
             <div class="_2_ii_banner">
-              <img src="./resources/images/.png" alt="Orientation date">
+              <img src="./resources/images/information-orientation.jpg" alt="Orientation date">
             </div>
 <!-- _2_ii_banner ends here -->
 <!-- _2_ii_text starts here -->
@@ -124,7 +127,7 @@
           <div class="_2_campus">
 <!-- _2_iii_banner starts here -->
             <div class="_2_iii_banner">
-              <img src="" alt="Our campus">
+              <img src="./resources/images/information-campus.jpg" alt="Our campus">
             </div>
 <!-- _2_iii_banner ends here -->
 <!-- _2_iii_text starts here -->
@@ -134,11 +137,13 @@
               <span><a href="#">Read more</a></span>
             </div>
 <!-- _2_iii_text ends here -->
+          </div>
+<!-- _2_campus ends here -->
 <!-- _2_guest_lecture starts here -->
           <div class="_2_guest_lecture">
 <!-- _2_iv_banner starts here -->
             <div class="_2_iv_banner">
-              <img src="./resources/images/.png" alt="Our guest lecture - Oliver Sack">
+              <img src="./resources/images/information-guest-lecture.jpg" alt="Our guest lecture - Oliver Sack">
             </div>
 <!-- _2_iv_banner ends here -->
 <!-- _2_iv_text starts here -->
@@ -151,8 +156,7 @@
           </div>
 <!-- _2_iv_guest_lecture ends here -->
         </div>
-<!-- _2_campus ends here -->
-      </div>
+<!-- _2_pt2 ends here -->
       </div>
 <!-- part_2 ends here -->
 <!-- part_3 starts here -->
@@ -164,17 +168,19 @@
 <!-- part_3_title ends here -->
 <!-- _3_desktop starts here -->
         <div class="_3_desktop">
+<!-- row_1 starts here -->
+          <div class="row_1">
 <!-- box_1 starts here -->
             <div class="box_1">
 <!-- image_container starts here -->
               <div class="image_container">
-                <img src="./resources/images/.png" alt="Software engineering">
+                <img src="./resources/images/course-software.jpg" alt="Software engineering">
               </div>
 <!-- image_container ends here -->
 <!-- _1_content starts here -->
               <div class="_1_content">
                 <h2>Software engineering</h2>
-                <span class="courses">Courses</span>
+                <span><a class="courses" href="#">COURSES</a></span>
                 <span>Web Development, Mobile Development, iOT, APIs</span>
               </div>
 <!-- _1_content ends here -->
@@ -184,13 +190,13 @@
             <div class="box_2">
 <!-- image_container starts here -->
               <div class="image_container">
-                <img src="./resources/images/.png" alt="Computer art">
+                <img src="./resources/images/course-computer-art.jpg" alt="Computer art">
               </div>
 <!-- image_container ends here -->
 <!-- _2_content starts here -->
               <div class="_2_content">
                 <h2>Computer art</h2>
-                <span class="courses">Courses</span>
+                <span><a class="courses" href="#">COURSES</a></span>
                 <span>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</span>
               </div>
 <!-- _2_content ends here -->
@@ -200,29 +206,33 @@
             <div class="box_3">
 <!-- image_container starts here -->
               <div class="image_container">
-                <img src="./resources/images/.png" alt="Design">
+                <img src="./resources/images/course-design.jpg" alt="Design">
               </div>
 <!-- image_container ends here -->
 <!-- _3_content starts here -->
-              <div class="3_content">
+              <div class="_3_content">
                 <h2>Design</h2>
-                <span class="courses">Courses</span>
+                <span ><a class="courses" href="#">COURSES</a></span>
                 <span>User Experience Design, User Research, Visual Design</span>
               </div>
 <!-- _3_content ends here -->
             </div>
 <!-- box_3 ends here -->
+          </div>
+<!-- row_1 ends here -->
+<!-- row_2 starts here -->
+          <div class="row_2">
 <!-- box_4 starts here -->
             <div class="box_4">
 <!-- image_container starts here -->
               <div class="image_container">
-                <img src="" alt="Data">
+                <img src="./resources/images/course-data.jpg" alt="Data">
               </div>
 <!-- image_container ends here -->
 <!-- _4_content starts here -->
               <div class="_4_content">
                 <h2>Data</h2>
-                <span class="courses">Courses</span>
+                <span><a class="courses" href="#">COURSES</a></span>
                 <span>Data Science, Big Data, SQL, Data Visualisation</span>
               </div>
 <!-- _4_content ends here -->
@@ -232,13 +242,13 @@
             <div class="box_5">
 <!-- starts here -->
               <div class="image_container">
-                <img src="./resources/images/.png" alt="Business">
+                <img src="./resources/images/course-business.jpg" alt="Business">
               </div>
 <!-- image_container ends here -->
 <!-- _5_content starts here -->
               <div class="_5_content">
                 <h2>Business</h2>
-                <span class="courses">Courses</span>
+                <span><a class="courses" href="#">COURSES</a></span>
                 <span>Product Development, Business Developemnt, Startup</span>
               </div>
 <!-- _5_content ends here -->
@@ -248,49 +258,51 @@
             <div class="box_6">
 <!-- image_container starts here -->
               <div class="image_container">
-                <img src="./resources/images/.png" alt="Marketing">
+                <img src="./resources/images/course-marketing.jpg" alt="Marketing">
               </div>
 <!-- image_container ends here -->
 <!-- _6_content starts here -->
               <div class="_6_content">
                 <h2>Marketing</h2>
-                <span class="courses">Courses</span>
+                <span><a class="courses" href="#">COURSES</a></span>
                 <span>Analytics, Content Marketing, Mobile Marketing</span>
               </div>
 <!-- _6_content ends here -->
             </div>
 <!-- box_6 ends here -->
           </div>
+<!-- row_2 ends here -->
+        </div>
 <!-- _3_desktop ends here -->
 <!-- _3_mobile starts here -->
         <div class="_3_mobile">
 <!-- _3_1_box starts here -->
           <div class="_3_1_box">
-            <h2>Software engineering</h2>
+            <a href="#">Software engineering</a>
           </div>
 <!-- _3_1_box ends here -->
 <!-- _3_2_box starts here -->
           <div class="_3_2_box">
-            <h2>Computer art</h2>
+            <a href="#">Computer art</a>
           </div>
 <!-- _3_2_box ends here -->
 <!-- _3_3_box starts here -->
           <div class="_3_3_box">
-            <h2>Design</h2>
+            <a href="#">Design</a>
           </div>
 <!-- _3_4_box starts here -->
           <div class="_3_4_box">
-            <h2>Data</h2>
+            <a href="#">Data</a>
           </div>
 <!-- _3_4_box ends here -->
 <!-- _3_5_box starts here -->
           <div class="_3_5_box">
-            <h2>Business</h2>
+            <a href="#">Business</a>
           </div>
 <!-- _3_5_box ends here -->
 <!-- _3_6_box starts here -->
           <div class="_3_6_box">
-            <h2>Marketing</h2>
+            <a href="#">Marketing</a>
           </div>
 <!-- _3_6_box ends here -->
         </div>
@@ -301,68 +313,76 @@
       <div class="part_4">
 <!-- part_4_title starts here -->
         <div class="part_4_title">
-          <h1>Thesis exhibit</h1>
+          <h1>Thesis exhibits</h1>
         </div>
 <!-- part_4_title ends here -->
-<!-- part_4_content starts here -->
         <div class="part_4_content">
+<!-- _4_pt1 starts here -->
+          <div class="_4_pt1">
 <!-- _4_i starts here -->
-          <div class="_4_i">
+            <div class="_4_i">
 <!-- i_video starts here -->
-            <div class="i_video">
-              <video src="videofile.ogg" autoplay poster="posterimage.jpg">
+              <div class="i_video">
+                <video src="./resources/videos/thesis.mp4" autoplay poster="posterimage.jpg" controls="">
                 video format not supported
-              </video>
-            </div>
+                </video>
+              </div>
 <!-- i_video ends here -->
 <!-- i_title starts here -->
-            <div class="i_title">
-              <h2>Reimagine urban</h2>
-            </div>
+              <div class="i_title">
+                <h2>Reimagine urban</h2>
+              </div>
 <!-- i_title ends here -->
 <!-- i_text starts here -->
-            <div class="i_text">
-              <span>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</span>
-            </div>
+              <div class="i_text">
+                <span>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</span>
+              </div>
 <!-- i_text ends here -->
-          </div>
-<!-- _4_i ends here -->
-<!-- _4_ii starts here -->
-          <div class="_4_ii">
-<!-- ii_image starts here -->
-            <div class="ii_image">
-              <img src="./resources/images/.png" alt="Fisma: Design and Prototype">
             </div>
+<!-- _4_i ends here -->
+          </div>
+<!-- _4_pt1 ends here -->
+<!-- _4_pt2 starts here -->
+          <div class="_4_pt2">
+<!-- _4_ii starts here -->
+            <div class="_4_ii">
+<!-- ii_image starts here -->
+              <div class="ii_image">
+                <img src="./resources/images/thesis-fisma.jpg" alt="Fisma: Design and Prototype">
+              </div>
 <!-- ii_image ends here -->
 <!-- ii_text starts here -->
-            <div class="ii_text">
-              <h2>Fisma: Design and Prototype</h2>
-              <span>Designer showcase of new prototype product</span>
-            </div>
+              <div class="ii_text">
+                <h2>Fisma: Design and Prototype</h2>
+                <span>Designer showcase of new prototype product</span>
+              </div>
 <!-- ii_text ends here -->
-          </div>
+            </div>
 <!-- _4_ii ends here -->
 <!-- _4_iii starts here -->
-          <div class="_4_iii">
+            <div class="_4_iii">
 <!-- iii_image starts here -->
-            <div class="iii_image">
-              <img src="./resources/images/.png" alt="Now and then">
-            </div>
+              <div class="iii_image">
+                <img src="./resources/images/thesis-now-and-then.jpg" alt="Now and then">
+              </div>
 <!-- iii_image ends here -->
 <!-- iii_text starts here -->
-            <div class="iii_text">
-              <h2>Now and then</h2>
-              <span>Research study about New York</span>
-            </div>
+              <div class="iii_text">
+                <h2>Now and then</h2>
+                <span>Research study about New York</span>
+              </div>
 <!-- iii_text ends here -->
-          </div>
+            </div>
 <!-- _4_iii ends here -->
+          </div>
+<!-- _4_pt2 ends here -->
         </div>
 <!-- part_4_content ends here -->
       </div>
 <!-- part_4 ends here -->
     </div>
 <!-- main-content ends here -->
+
 <!-- footer starts here -->
     <footer>
 <!-- copyright starts here -->
@@ -371,11 +391,11 @@
       </div>
 <!-- copyright ends here -->
 <!-- terms_and_privacy starts here -->
-      <div class="terms_&_privacy">
+      <div class="terms_and_privacy">
         <span><a href="#">Terms</a></span>
         <span><a href="#">Privacy</a></span>
       </div>
-<!-- terms_&_privacy ends here -->
+<!-- terms_and_privacy ends here -->
     </footer>
 <!-- footer ends here -->
   </body>
